@@ -10,7 +10,7 @@ services:
         env_file:
             - ${ENV_FILE:-./.env.oss.gh}
         ports:
-            - "3000:3000"
+            - "9193:3000"
         networks:
             - agenta-network
         labels:
